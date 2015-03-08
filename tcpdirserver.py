@@ -1,5 +1,5 @@
 #######################
-# TCP Directory Server
+#TCP Directory Server
 #######################
 
 import socket
@@ -25,6 +25,7 @@ print "Incoming connection from " + str(addr)
 print "Let's recieve some data...\n"
 
 while True:
+  print "la"
 	data = c.recv(1024)
 	if not data:
 		break
