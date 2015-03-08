@@ -1,10 +1,11 @@
 #######################
-# TCP Directory Server 
+# TCP Directory Server
 #######################
 
 import socket
 
-host = '127.0.0.1'
+host = 'localhost'
+
 port = 8888
 
 print "Directory server is running " + host + ":", port
